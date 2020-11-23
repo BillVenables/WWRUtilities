@@ -1,0 +1,19 @@
+Package: WWRUtilities
+Type: Package
+Title: Support Software and Data for WWR
+Version: 0.1.2
+Date: 2020-01-20
+Author: Bill Venables
+Maintainer: Bill Venables <Bill.Venables@gmail.com>
+LazyData: true
+Description: A small set of utilities to simplify use of some
+    of the tools for modelling supplied in the MASS package.
+License: GPL (>= 2)
+Suggests: 
+    knitr,
+    rmarkdown
+Depends: R (>= 3.5.0), methods, graphics, grDevices, utils, stats, WWRGraphics
+NeedsCompilation: no
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
